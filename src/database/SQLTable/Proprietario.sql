@@ -1,0 +1,6 @@
+create table "OFFICINAADMIN".PROPRIETARIO
+(
+	NOME VARCHAR(50),
+	CF VARCHAR(25) not null primary key,
+	EMAIL VARCHAR(50)
+)
